@@ -5,11 +5,8 @@ lang/php_*.json
 /public/build
 /public/hot
 /public/storage
-/storage/*.key
-/storage/clockwork
 /tests/test*.txt
 /vendor
-/storage
 .env
 .env.backup
 .phpunit.result.cache
@@ -24,7 +21,6 @@ yarn-error.log
 /docker-compose.yml
 .env.dusk.local
 /DEVSENSE
-/storage
 downloadDB.sh
 
 # Ignore Mac DS_Store files
