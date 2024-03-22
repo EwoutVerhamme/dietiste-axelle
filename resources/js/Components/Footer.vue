@@ -15,7 +15,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="mt-8 grid grid-cols-3 gap-8 xl:col-span-2 xl:mt-0">
+                <div class="mt-8 flex flex-wrap justify-evenly md:justify-between gap-8 xl:col-span-2 xl:mt-0">
                     <div>
 
                         <ul role="list" class="mt-6 space-y-3">
@@ -54,7 +54,7 @@
                             <h3 class="mb-4 font-bold text-base">Kennismakingsgesprek</h3>
                             <a href="https://rosa.be/nl/booking/hp/axelle-vercruysse/availability/?site=65f20a8e957e9b028c34603f&is-new-patient=true&motive=65fddb640f2cbe72d03b66fc"
                                 target="_blank"
-                                class="border-2 rounded-lg border-black font-bold px-8 py-2 text-lg hover:bg-accent transition-all">Ik
+                                class="border-2 rounded-lg border-black font-bold px-8 py-2 text-lg hover:bg-accent transition-all hover:bg-black">Ik
                                 wil kennis maken!</a>
                         </div>
                         <div>

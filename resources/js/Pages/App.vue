@@ -1,12 +1,15 @@
 <template>
+
+    <Head title="Welkom" />
     <Navigation />
     <Hero />
 
-    <div class="flex justify-evenly mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32  lg:px-8">
-        <div class="w-1/3"> <img src="/assets/img/who-am-i.png" alt="Wie ben ik"
-                class="w-11/12 rounded-md shadow-2xl h-full object-contain" />
+    <div
+        class="flex md:flex-row gap-4 flex-col-reverse justify-evenly mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32  lg:px-8">
+        <div class="md:w-1/3 mt-4"> <img src="/assets/img/who-am-i.png" alt="Wie ben ik"
+                class="w-11/12 rounded-md  h-full object-contain" />
         </div>
-        <div class="w-2/3">
+        <div class="md:w-2/3">
             <div class="my-4 max-w-max relative">
                 <h2 class="text-4xl font-bold z-[990] relative">Wie ben ik?</h2>
                 <hr
@@ -20,7 +23,7 @@
 
                 Na mijn afstuderen heb ik mijn kennis uitgebreid door een opleiding tot <span
                     class="font-bold">Intuïtief Eten Coach </span> te volgen
-                bijHealthy Habits in 2023. Ook heb ik me gespecialiseerd in
+                bij Healthy Habits in 2023. Ook heb ik me gespecialiseerd in
                 Kinderdiëtetiek aan
                 de <span class="font-bold">Han University</span> in
                 datzelfde jaar.<br /><br />

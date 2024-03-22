@@ -1,16 +1,18 @@
 import defaultTheme from 'tailwindcss/defaultTheme';
-import forms from '@tailwindcss/forms';
 
-/** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
+    future: {
+        hoverOnlyWhenSupported: true,
+    },
     content: [
-        './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
-        './storage/framework/views/*.php',
-        './resources/views/**/*.blade.php',
-        './resources/js/**/*.vue',
+        "./resources/views/*.blade.php",
+        "./resources/js/*.js",
+        "./resources/js/**",
+        "./resources/**",
+        "./index.html",
+        "./src/**/*.{vue,js,ts,jsx,tsx}",
     ],
-
-    theme: {
+   theme: {
         colors: {
       'accent': '#FEB9AA',
       'white': '#FFFFFF',
@@ -23,15 +25,14 @@ export default {
       'gray-dark': '#273444',
       'gray': '#8492a6',
       'gray-light': '#d3dce6',
-
+  
     },
-        extend: {
+    extend: {
             fontFamily: {
                 sans: ['Raleway', ...defaultTheme.fontFamily.sans],
             },
 
         },
-    },
-
-    plugins: [forms],
-};
+  plugins: [],
+}
+}
