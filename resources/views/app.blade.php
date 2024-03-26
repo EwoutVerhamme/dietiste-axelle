@@ -21,4 +21,7 @@
     @inertia
 </body>
 
+<script defer src="https://umami.ewoutverhamme.be/script.js" data-website-id="07fe02bc-99d6-4ebf-a9ec-a6cdb535a972">
+</script>
+
 </html>
