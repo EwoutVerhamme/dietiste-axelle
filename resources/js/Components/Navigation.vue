@@ -5,7 +5,7 @@
             <Link v-for="tab in tabs" :key="tab.name" :href="tab.href"
                 :class="[route().current(tab.href) ? 'border-red-500 text-indigo-600' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700', 'whitespace-nowrap  py-4 px-1 text-base font-medium']"
                 :aria-current="route().current() ? 'page' : undefined">{{ tab.name }}</Link>
-            <a href="https://rosa.be/nl/hp/axelle-vercruysse/" target="_blank"
+            <a data-umami-event="book-appointment" href="https://rosa.be/nl/hp/axelle-vercruysse/" target="_blank"
                 class="border-2 rounded-lg border-accent min-w-max font-bold px-6 py-2 hover:bg-accent hover:text-white transition-all">Afspraak
                 maken</a>
         </nav>
