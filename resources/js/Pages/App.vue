@@ -16,9 +16,7 @@
                     class="border-2 border-accent h-[1.2rem] z-[989] w-full absolute -bottom-[0.1rem] left-0 bg-accent" />
             </div>
 
-            <p>Ik heb mijn opleidingen in de gezondheidssector voltooid met een focus op voeding en dieet. In 2019 begon
-                ik aan de opleiding
-                <span class="font-bold">Voedings- en Dieetkunde</span> aan de HoGent, waar ik in 2022 afstudeerde.
+            <p>In 2022 studeerde ik af als erkend diëtiste na de opleiding <span class="font-bold">Voedings- en Dieetkundige</span> aan de HoGent. 
                 <br /><br />
 
                 Na mijn afstuderen heb ik mijn kennis uitgebreid door een opleiding tot <span
