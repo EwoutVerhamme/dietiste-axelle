@@ -64,7 +64,7 @@
 
                         <p class="text-center my-4">{{ consult.subtext }}</p>
 
-                        <a data-umami-event="book-appointment" href="https://rosa.be/nl/hp/axelle-vercruysse/"
+                        <a :data-umami-event="consult.umamiTag" href="https://rosa.be/nl/hp/axelle-vercruysse/"
                             target="_blank"
                             class="border-2 rounded-lg text-center border-primary min-w-max font-bold px-6 py-2 hover:bg-primary hover:text-white transition-all">{{
                         consult.button }}</a>
@@ -108,25 +108,29 @@ const consultTypes = reactive([
         title: "Kennismakingsgepsrek",
         types: [{ name: '20 min', price: "Gratis", selected: true }],
         subtext: "Tijdens een gratis kennismakingsgesprek van 20 minuten leren we elkaar betere kennen. We verkennen jouw hulpvraag en mijn werkwijze.",
-        button: "Ik wil kennis maken"
+        button: "Ik wil kennis maken",
+        umamiTag: "book-appointment-first-interview"
     },
     {
         title: "Eerste consultatie",
         types: [{ name: 'Online', price: "€70", selected: true }, { name: 'Huisbezoek', price: "€80", selected: false }],
         subtext: "In een eerste gesprek van anderhalf uur leren we elkaar beter kennen. In dit eerste gesprek luister ik graag naar jouw vragen, verwachtingen en behoeften.",
-        button: "Eerste consult boeken"
+        button: "Eerste consult boeken",
+        umamiTag: "book-appointment-first-consult"
     },
     {
         title: "Opvolg consultatie (online)",
         types: [{ name: '30 min', price: "€30", selected: true }, { name: '60 min', price: "€50", selected: false }],
         subtext: "Vanaf het tweede gesprek onderzoeken we samen welke moeilijkheden je de afgelopen weken ondervonden hebt en hoe je hier op de toekomst beter op kan reageren.",
-        button: "Opvolg consultatie boeken"
+        button: "Opvolg consultatie boeken",
+        umamiTag: "book-appointment-follow-up-consult-online"
     },
     {
         title: "Opvolg consultatie (huisbezoek)",
         types: [{ name: '60 min', price: "€30", selected: true }],
         subtext: "Vanaf het tweede gesprek onderzoeken we samen welke moeilijkheden je de afgelopen weken ondervonden hebt en hoe je hier op de toekomst beter op kan reageren.",
-        button: "Opvolg consultatie boeken"
+        button: "Opvolg consultatie boeken",
+        umamiTag: "book-appointment-follow-up-consult-home"
     }
 
 ])
