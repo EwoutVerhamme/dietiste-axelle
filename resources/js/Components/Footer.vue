@@ -6,7 +6,7 @@
                 <div>
                     <p class="font-bold text-2xl">Diëtiste Axelle </p>
                     <p class="text-sm leading-6 text-gray-300">Gewichtsneutrale benadering met jouw
-                        gezondheid als prioriteit.</p>
+                        gezondheid als prioriteit</p>
                     <div class="flex space-x-6">
                         <a v-for="item in navigation.social" :key="item.name" :href="item.href"
                             class="text-gray-500 hover:text-gray-400">
@@ -22,7 +22,7 @@
                             <li v-for="item in navigation.solutions" :key="item.name">
                                 <a :href="item.href"
                                     class="text-sm leading-6 text-gray-300 hover:text-white transition-all">{{
-                                    item.name }}</a>
+                            item.name }}</a>
                             </li>
                         </ul>
                     </div>

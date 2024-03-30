@@ -22,7 +22,11 @@
                 class="mx-auto mt-16  z-20 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
                 <div class="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
                     <div class="-m-2 rounded-xl  p-2  lg:-m-4 lg:rounded-2xl lg:p-4">
-                        <img src="/assets/img/hero.png" alt="Axelle Vercruysse" class="w-11/12 rounded-md" />
+                        <picture>
+                            <source srcset="/assets/img/hero/hero.webp" type="image/webp">
+                            <img src="/assets/img/hero/hero.png" alt="Axelle Vercruysse" style="width:auto;"
+                                class="w-11/12 rounded-md">
+                        </picture>
                     </div>
                 </div>
             </div>

@@ -4,6 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description"
+        content="Diëtiste Axelle Vercruysse biedt professionele begeleiding op maat voor een gezond en evenwichtig voedingspatroon. Wij bieden zowel online consulten als consulten ter plaatse aan.">
     <title inertia>{{ config('app.name', 'Laravel') }}</title>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

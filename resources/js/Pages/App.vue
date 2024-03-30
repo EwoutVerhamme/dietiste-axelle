@@ -6,8 +6,13 @@
 
     <div
         class="flex md:flex-row gap-4 flex-col-reverse justify-evenly mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32  lg:px-8">
-        <div class="md:w-1/3 mt-4"> <img src="/assets/img/who-am-i.png" alt="Wie ben ik"
-                class="w-11/12 rounded-md  h-full object-contain" />
+        <div class="md:w-1/3 mt-4">
+
+            <picture>
+                <source srcset="/assets/img/who-am-i/who-am-i.webp" type="image/webp">
+                <img src="/assets/img/who-am-i/who-am-i.png" alt="Axelle Vercruysse" style="width:auto;"
+                    class="w-11/12 rounded-md  h-full object-contain">
+            </picture>
         </div>
         <div class="md:w-2/3">
             <div class="my-4 max-w-max relative">
