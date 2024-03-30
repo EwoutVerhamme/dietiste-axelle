@@ -1,5 +1,5 @@
 <template>
-    <footer class="bg-accent" aria-labelledby="footer-heading">
+    <footer class="bg-primary" aria-labelledby="footer-heading">
         <h2 id="footer-heading" class="sr-only">Footer</h2>
         <div class="mx-auto max-w-7xl px-6 pb-4 pt-16 sm:pt-12 lg:px-8 lg:pt-12">
             <div class="xl:grid xl:grid-cols-3 xl:gap-8">
@@ -22,7 +22,7 @@
                             <li v-for="item in navigation.solutions" :key="item.name">
                                 <a :href="item.href"
                                     class="text-sm leading-6 text-gray-300 hover:text-white transition-all">{{
-                            item.name }}</a>
+                                    item.name }}</a>
                             </li>
                         </ul>
                     </div>
@@ -54,7 +54,7 @@
                             <h3 class="mb-4 font-bold text-base">Kennismakingsgesprek</h3>
                             <a href="https://rosa.be/nl/booking/hp/axelle-vercruysse/availability/?site=65f20a8e957e9b028c34603f&is-new-patient=true&motive=65fddb640f2cbe72d03b66fc"
                                 target="_blank"
-                                class="border-2 rounded-lg border-black font-bold px-8 py-2 text-lg hover:bg-accent transition-all hover:bg-black">Ik
+                                class="border-2 rounded-lg border-black font-bold px-8 py-2 text-lg hover:bg-primary transition-all hover:bg-black">Ik
                                 wil kennis maken!</a>
                         </div>
                         <div>

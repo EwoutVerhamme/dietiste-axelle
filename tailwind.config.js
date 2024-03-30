@@ -14,9 +14,9 @@ module.exports = {
     ],
    theme: {
         colors: {
-      'accent': '#FEB9AA',
+        'primary': '#FFD3C9',
       'white': '#FFFFFF',
-            'blue': '#1fb6ff',
+      'blue': '#1fb6ff',
       'purple': '#7e5bef',
       'pink': '#ff49db',
       'orange': '#ff7849',

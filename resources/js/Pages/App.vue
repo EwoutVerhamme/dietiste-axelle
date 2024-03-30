@@ -13,7 +13,7 @@
             <div class="my-4 max-w-max relative">
                 <h2 class="text-4xl font-bold z-[990] relative">Wie ben ik?</h2>
                 <hr
-                    class="border-2 border-accent h-[1.2rem] z-[989] w-full absolute -bottom-[0.1rem] left-0 bg-accent" />
+                    class="border-2 border-primary h-[1.2rem] z-[989] w-full absolute -bottom-[0.1rem] left-0 bg-primary" />
             </div>
 
             <p>In 2022 studeerde ik af als erkend diëtiste na de opleiding <span class="font-bold">Voedings- en
