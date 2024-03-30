@@ -13,9 +13,9 @@ Route::get('werkwijze', function () {
 })->name('werkwijze');
 
 
-Route::get('diensten', function () {
+Route::get('aanbod', function () {
     return Inertia::render('Services');
-})->name('diensten');
+})->name('aanbod');
 
 
 Route::get('contact', function () {
