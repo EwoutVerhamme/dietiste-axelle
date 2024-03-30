@@ -16,7 +16,8 @@
                     class="border-2 border-accent h-[1.2rem] z-[989] w-full absolute -bottom-[0.1rem] left-0 bg-accent" />
             </div>
 
-            <p>In 2022 studeerde ik af als erkend diëtiste na de opleiding <span class="font-bold">Voedings- en Dieetkundige</span> aan de HoGent. 
+            <p>In 2022 studeerde ik af als erkend diëtiste na de opleiding <span class="font-bold">Voedings- en
+                    Dieetkundige</span> aan de HoGent.
                 <br /><br />
 
                 Na mijn afstuderen heb ik mijn kennis uitgebreid door een opleiding tot <span
@@ -39,9 +40,8 @@
 </template>
 
 <script setup>
-import { Head, Link } from '@inertiajs/vue3';
-import Navigation from '@/Components/Navigation.vue';
-import Hero from '@/Components/Hero.vue';
-import Footer from '@/Components/Footer.vue';
+import { Head } from '@inertiajs/vue3';
+import { Hero, Navigation, Footer } from "@Components";
+
 
 </script>
