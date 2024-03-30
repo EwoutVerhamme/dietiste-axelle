@@ -81,11 +81,11 @@
 <script setup>
 const navigation = {
     solutions: [
-        { name: 'Home', href: '#' },
-        { name: 'Werkwijze', href: '#' },
-        { name: 'Diensten', href: '#' },
-        { name: 'Contact', href: '#' },
-        { name: 'Afspraak maken', href: '#' },
+        { name: 'Home', href: route('home') },
+        { name: 'Werkwijze', href: route('werkwijze') },
+        { name: 'Aanbod', href: route('aanbod') },
+        { name: 'Contact', href: route('contact') },
+        // { name: 'Afspraak maken', href: '#' },
     ],
 
     contact: [
