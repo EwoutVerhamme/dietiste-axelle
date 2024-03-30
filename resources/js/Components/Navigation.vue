@@ -20,9 +20,9 @@ import { Link } from '@inertiajs/vue3';
 
 
 const tabs = [
-    // { name: 'Home', href: route('home') },
-    // { name: 'Werkwijze', href: route('werkwijze') },
-    // { name: 'Diensten', href: route('diensten') },
-    // { name: 'Contact', href: route('contact') },
+    { name: 'Home', href: route('home') },
+    { name: 'Werkwijze', href: route('werkwijze') },
+    { name: 'Diensten', href: route('diensten') },
+    { name: 'Contact', href: route('contact') },
 ]
 </script>

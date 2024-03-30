@@ -9,9 +9,9 @@
                     <br />
                     Vercruysse
                 </h1>
-                <p class="mt-4 text-lg leading-6 text-gray-600">Gewichtsneutrale benadering met jouw <br /> gezondheid
+                <p class="mt-4 text-lg leading-6 text-gray-600">Gewichtsneutrale aanpak met jouw <br /> gezondheid
                     als
-                    prioriteit.</p>
+                    prioriteit</p>
                 <div class="mt-8 flex items-center gap-x-6">
                     <a href="https://rosa.be/nl/hp/axelle-vercruysse/" target="_blank"
                         class="border-2 rounded-lg border-primary bg-white hover:text-white font-bold px-8 py-2 text-lg hover:bg-primary transition-all">Ontdek
