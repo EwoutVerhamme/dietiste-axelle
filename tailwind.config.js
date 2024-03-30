@@ -27,7 +27,11 @@ module.exports = {
       'gray-light': '#d3dce6',
   
     },
+    
     extend: {
+        boxShadow: {
+        'app': 'box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.4);',
+      },
             fontFamily: {
                 sans: ['Raleway', ...defaultTheme.fontFamily.sans],
             },
