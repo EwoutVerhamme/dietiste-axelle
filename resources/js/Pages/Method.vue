@@ -73,11 +73,10 @@
 <script setup>
 import { Head } from '@inertiajs/vue3';
 import { Title, Layout } from "@Components";
-import { CheckIcon } from '@heroicons/vue/20/solid'
 
 const steps = [
-    { id: '01', name: 'Intake gesprek', description: "Ontdek jouw persoonlijke route naar gezondheid met ons intakegesprek. We leren jou graag kennen en stellen samen een haalbaar actieplan op.", href: '#', },
-    { id: '02', name: 'Opvolgconsultatie', description: "Optimaliseer jouw gezondheid met onze opvolgconsultaties. We staan klaar om bij te sturen waar nodig, zodat je jouw doelen kunt blijven nastreven.", href: '#', },
-    { id: '03', name: 'Hulp bieden zolang je er zelf nood aan hebt', description: "Je staat er niet alleen voor. Wij bieden jou de nodige ondersteuning zolang je het nodig hebt, op jouw weg naar een gezonder en gelukkiger leven.", href: '#', },
+    { id: '01', name: 'Intake gesprek', description: "Ontdek jouw persoonlijke route naar gezondheid met ons intakegesprek. Ik leer jou graag kennen en we stellen samen een haalbaar actieplan op.", href: '#', },
+    { id: '02', name: 'Opvolgconsultatie', description: "Optimaliseer jouw gezondheid met een opvolgconsultatie. We sturen bij waar nodig, zodat je jouw doelen kunt blijven nastreven.", href: '#', },
+    { id: '03', name: 'Hulp bieden zolang je er zelf nood aan hebt', description: "Je staat er niet alleen voor. Ik biedt jou de nodige ondersteuning zolang je het nodig hebt, op jouw weg naar een gezonder en gelukkiger leven.", href: '#', },
 ]
 </script>

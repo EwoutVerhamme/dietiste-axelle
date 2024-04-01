@@ -13,7 +13,7 @@
                     als
                     prioriteit</p>
                 <div class="mt-8 flex items-center gap-x-6">
-                    <a href="https://rosa.be/nl/hp/axelle-vercruysse/" target="_blank"
+                    <a :href="route('werkwijze')"
                         class="border-2 rounded-lg border-primary bg-white hover:text-white font-bold px-8 py-2 text-lg hover:bg-primary transition-all">Ontdek
                         mijn werkwijze</a>
                 </div>
