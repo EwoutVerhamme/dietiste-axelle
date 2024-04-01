@@ -5,7 +5,7 @@
             <div class="xl:grid xl:grid-cols-3 xl:gap-8">
                 <div>
                     <p class="font-bold text-2xl">Diëtiste Axelle </p>
-                    <p class="text-sm leading-6 text-gray-300">Gewichtsneutrale benadering met jouw
+                    <p class="text-sm leading-6 text-gray-300">Gewichtsneutrale aanpak met jouw
                         gezondheid als prioriteit</p>
                     <div class="flex space-x-6">
                         <a v-for="item in navigation.social" :key="item.name" :href="item.href"
@@ -81,11 +81,11 @@
 <script setup>
 const navigation = {
     solutions: [
-        { name: 'Home', href: '#' },
-        { name: 'Werkwijze', href: '#' },
-        { name: 'Diensten', href: '#' },
-        { name: 'Contact', href: '#' },
-        { name: 'Afspraak maken', href: '#' },
+        { name: 'Home', href: route('home') },
+        { name: 'Werkwijze', href: route('werkwijze') },
+        { name: 'Aanbod', href: route('aanbod') },
+        { name: 'Contact', href: route('contact') },
+        // { name: 'Afspraak maken', href: '#' },
     ],
 
     contact: [

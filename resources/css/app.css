@@ -10,3 +10,7 @@ html, body, #app {
 html, body, #app {
     min-width: 100vw;
 }
+
+a{
+    @apply text-[#2e2e2e] hover:text-[#2e2e2e] no-underline p-0 m-0;
+}

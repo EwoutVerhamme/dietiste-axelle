@@ -1,3 +1,5 @@
 export { default as Navigation} from "./Navigation.vue"
 export { default as Footer} from "./Footer.vue"
 export { default as Hero} from "./Hero.vue"
+export { default as Title} from "./Title.vue"
+export { default as Layout} from "./Layout.vue"

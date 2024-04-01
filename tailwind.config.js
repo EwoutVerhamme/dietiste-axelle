@@ -15,6 +15,7 @@ module.exports = {
    theme: {
         colors: {
         'primary': '#FFD3C9',
+        'primary-dark': "#FB886E",
       'white': '#FFFFFF',
       'blue': '#1fb6ff',
       'purple': '#7e5bef',
@@ -27,12 +28,18 @@ module.exports = {
       'gray-light': '#d3dce6',
   
     },
+    
     extend: {
+        boxShadow: {
+        'app': 'box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.4);',
+      },
             fontFamily: {
                 sans: ['Raleway', ...defaultTheme.fontFamily.sans],
             },
 
         },
-  plugins: [],
+   plugins: [
+      require('@tailwindcss/forms'),
+    ],
 }
 }
