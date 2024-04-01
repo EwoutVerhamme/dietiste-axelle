@@ -3,10 +3,11 @@
     <Head title="Werkwijze" />
     <Layout>
         <div class="p-4 mx-auto flex-col max-w-7xl flex gap-10">
-            <div class="flex gap-10">
-                <div class="w-2/3">
+            <div class="flex flex-col md:flex-row gap-10">
+                <div class="md:w-2/3">
                     <Title title="Werkwijze" />
-                    <p>Strenge diëten of rigide regels behoren niet tot mijn aanpak. In plaats daarvan streef ik naar
+                    <p class="w-full">Strenge diëten of rigide regels behoren niet tot mijn aanpak. In plaats daarvan
+                        streef ik naar
                         een
                         <span class="font-bold"> gewichtsneutrale aanpak</span>, waarbij jouw welzijn centraal staat.
                         <br />
@@ -27,7 +28,7 @@
                     </p>
                 </div>
 
-                <div class="w-1/3">
+                <div class="md:w-1/3 w-full">
                     <img src="https://placehold.co/600x550" alt="">
                 </div>
             </div>

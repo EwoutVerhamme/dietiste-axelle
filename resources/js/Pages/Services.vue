@@ -5,12 +5,20 @@
         <div>
             <div class="p-4 max-w-7xl mx-auto">
                 <Title title="Mijn specialisaties" />
-                TBD
+                <ul>
+                    <li>Gezonde voeding</li>
+                    <li> Gezonde levensstijl</li>
+                    <li> Emotie eten</li>
+                    <li> Allergieën en intoleranties</li>
+                    <li>Prikkelbare darmen (FODMAP)</li>
+                    <li> Intuïtief eten</li>
+                </ul>
+
             </div>
 
-            <div class="w-full bg-primary flex justify-between gap-20 my-4 ">
-                <div class="max-w-7xl mx-auto flex gap-20 items-center">
-                    <div class="w-2/3 py-10">
+            <div class="w-full bg-primary flex justify-between my-4 px-4 py-4">
+                <div class="max-w-7xl mx-auto flex flex-col md:flex-row gap-6 md:gap-20 items-center">
+                    <div class="md:w-2/3 py-10">
                         <h2 class="font-bold my-4 text-4xl">Traject verpakkingen leren lezen</h2>
                         <p>Wil je meer te weten komen over hoe je de informatie op verpakkingen kan interpreteren?
                             <br />
@@ -31,7 +39,7 @@
                         </p>
                     </div>
 
-                    <div class="w-1/3">
+                    <div class="md:w-1/3">
                         <img src="https://placehold.co/600x550" alt="">
                     </div>
                 </div>
