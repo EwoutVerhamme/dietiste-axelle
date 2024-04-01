@@ -11,7 +11,7 @@
             <picture>
                 <source srcset="/assets/img/who-am-i/who-am-i.webp" type="image/webp">
                 <img src="/assets/img/who-am-i/who-am-i.png" alt="Axelle Vercruysse" style="width:auto;"
-                    class="w-11/12 rounded-md  h-full object-contain">
+                    class="w-11/12 rounded-m object-contain">
             </picture>
         </div>
         <div class="md:w-2/3">
