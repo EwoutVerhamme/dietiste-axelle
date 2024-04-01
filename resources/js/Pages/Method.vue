@@ -29,7 +29,7 @@
                 </div>
 
                 <div class="md:w-1/3 w-full">
-                    <img src="https://placehold.co/600x550" alt="">
+                    <!-- <img src="https://placehold.co/600x550" alt=""> -->
                 </div>
             </div>
 

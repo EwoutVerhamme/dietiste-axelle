@@ -72,6 +72,6 @@ const tabs = [
     { name: 'Home', href: route('home'), current: 'home' },
     { name: 'Werkwijze', href: route('werkwijze'), current: 'werkwijze' },
     { name: 'Aanbod', href: route('aanbod'), current: 'aanbod' },
-    { name: 'Contact', href: route('contact'), current: 'contact' },
+    // { name: 'Contact', href: route('contact'), current: 'contact' },
 ]
 </script>

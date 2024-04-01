@@ -40,7 +40,7 @@
                     </div>
 
                     <div class="md:w-1/3">
-                        <img src="https://placehold.co/600x550" alt="">
+                        <!-- <img src="https://placehold.co/600x550" alt=""> -->
                     </div>
                 </div>
             </div>
@@ -128,14 +128,14 @@ const consultTypes = reactive([
     },
     {
         title: "Opvolg consultatie (online)",
-        types: [{ name: '30 min', price: "€30", selected: true }, { name: '60 min', price: "€50", selected: false }],
+        types: [{ name: '30 min', price: "€30", selected: true }, { name: '60 min', price: "€55", selected: false }],
         subtext: "Vanaf het tweede gesprek onderzoeken we samen welke moeilijkheden je de afgelopen weken ondervonden hebt en hoe je hier op de toekomst beter op kan reageren.",
         button: "Opvolg consultatie boeken",
         umamiTag: "book-appointment-follow-up-consult-online"
     },
     {
         title: "Opvolg consultatie (huisbezoek)",
-        types: [{ name: '60 min', price: "€30", selected: true }],
+        types: [{ name: '60 min', price: "€65", selected: true }],
         subtext: "Vanaf het tweede gesprek onderzoeken we samen welke moeilijkheden je de afgelopen weken ondervonden hebt en hoe je hier op de toekomst beter op kan reageren.",
         button: "Opvolg consultatie boeken",
         umamiTag: "book-appointment-follow-up-consult-home"
