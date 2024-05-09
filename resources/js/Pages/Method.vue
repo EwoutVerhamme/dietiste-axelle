@@ -77,6 +77,6 @@ import { Title, Layout } from "@Components";
 const steps = [
     { id: '01', name: 'Intake gesprek', description: "Ontdek jouw persoonlijke route naar gezondheid met ons intakegesprek. Ik leer jou graag kennen en we stellen samen een haalbaar actieplan op.", href: '#', },
     { id: '02', name: 'Opvolgconsultatie', description: "Optimaliseer jouw gezondheid met een opvolgconsultatie. We sturen bij waar nodig, zodat je jouw doelen kunt blijven nastreven.", href: '#', },
-    { id: '03', name: 'Hulp bieden zolang je er zelf nood aan hebt', description: "Je staat er niet alleen voor. Ik biedt jou de nodige ondersteuning zolang je het nodig hebt, op jouw weg naar een gezonder en gelukkiger leven.", href: '#', },
+    { id: '03', name: 'Hulp bieden zolang je er zelf nood aan hebt', description: "Je staat er niet alleen voor. Ik bied jou de nodige ondersteuning zolang je het nodig hebt, op jouw weg naar een gezonder en gelukkiger leven.", href: '#', },
 ]
 </script>
